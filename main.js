@@ -52,7 +52,8 @@ function imprimir(arregloPuro){
   return `
   <div class="content">
   <h1 class="criptoname">${cripto.id}</h1>
-  <h3>current price: ${precioFormateado}</h3>
+  <h3 class="criptosymbol">${cripto.symbol}</h3>
+  <h2>Current price: ${precioFormateado}</h2>
   </div>
   `
   }).join("</hr>")
