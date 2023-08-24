@@ -2,23 +2,11 @@ import "./style.css"
 
 const mostrar = document.querySelector('#app')
 
- 
-
- 
-
- 
-
-//EVENTOS
-
- 
-
 document.addEventListener('DOMContentLoaded', buscarCripto);
 
  
 
- 
-
-//FUNCIONES
+//FUNCIONES ASINCRONOS 
 
 async function buscarCripto(){
   let url = "https://api.coincap.io/v2/assets"
